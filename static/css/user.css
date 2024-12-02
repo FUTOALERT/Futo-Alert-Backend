@@ -1,0 +1,64 @@
+/* Chat Container */
+.chat-container {
+    width: 98%;
+    margin: 0 auto;
+    background-color: #1e1e2d; /* Dark background */
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Chat Form */
+.chat-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Chat Button (Microphone/Send) */
+.chat-button {
+    background-color: #44475a; /* Button background */
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chat-button:hover {
+    background-color: #6272a4; /* Hover effect */
+}
+
+/* Chat Input Wrapper */
+.chat-input-wrapper {
+    flex: 1; /* Take remaining space */
+    position: relative;
+}
+
+/* Chat Input */
+.chat-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #44475a;
+    border-radius: 20px;
+    background-color: #2d2d44;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.chat-input:focus {
+    border-color: #6272a4; /* Focus border color */
+}
+
+/* Placeholder Text Style */
+.chat-input::placeholder {
+    color: #9a9aa1;
+    font-style: italic;
+}
